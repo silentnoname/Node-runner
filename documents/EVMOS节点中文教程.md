@@ -60,7 +60,7 @@ make install
 evmosd keys add <mykey>
 ```
 
-<mykey>处输入任意你想设置的名字，创建成功后有显示如下。建议备份你的助记词
+`<mykey>`处输入任意你想设置的名字，创建成功后有显示如下。建议备份你的助记词
 
 ![](https://github.com/silentnoname/silent666pic/blob/master/img/evmosg.png?raw=true)
 
@@ -82,7 +82,7 @@ evmosd config chain-id evmos_9000-1
 evmosd init <your_custom_moniker> --chain-id evmos_9000-1
 ```
 
-<your_custom_moniker>处输入你想设置的名字
+`<your_custom_moniker>`处输入你想设置的名字
 
 ## 下载Genesis 文件
 
@@ -191,7 +191,7 @@ evmosd status
 evmosd keys show <mykey>
 ```
 
-<mykey>是之前创建的key的名字
+`<mykey>`是之前创建的key的名字
 
 ### 加入discord
 
@@ -236,7 +236,7 @@ evmosd tx staking create-validator \
   --from=<mykey>
 ```
 
-<your_custom_moniker>输入你之前设置的验证人名字，<mykey>输入你的key名
+`<your_custom_moniker>`输入你之前设置的验证人名字，`<mykey>`输入你的key名
 
 
 

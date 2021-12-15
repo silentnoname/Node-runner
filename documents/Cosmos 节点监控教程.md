@@ -77,7 +77,7 @@ Description=<YOURCOSMOSCHAIN> daemon
 After=network-online.target
 [Service]
 User=$USER
-ExecStart=$HOME/go/bin/<YOURCOSMOSCHAIN> start --log_level=warn
+ExecStart=$HOME/go/bin/<YOURCOSMOSCHAIN> start --log_level=info
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=10000

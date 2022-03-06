@@ -62,7 +62,6 @@ node exporter的metrics在http://YOURIP:9100/metrics  可以进行访问
 接下来是修改cosmos节点的配置文件和配置cosmos节点的系统服务
 
 ```shell
-sed -i '/\[api\]/{:a;n;/enable/s/false/true/;Ta;}' $HOME/.<YOURCOSMOSCHAIN>/config/app.toml
 sed -i "s/prometheus-retention-time = 0/prometheus-retention-time = 60/g" $HOME/.<YOURCOSMOSCHAIN>/config/app.toml
 sed -i "s/prometheus = false/prometheus = true/g" $HOME/.<YOURCOSMOSCHAIN>/config/config.toml
 ```

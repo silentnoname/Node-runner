@@ -14,6 +14,13 @@ https://github.com/Stride-Labs/testnet
 
 ## 安装基础环境
 
+安装必要的环境
+
+```
+sudo apt-get update -y && sudo apt-get upgrade -y;
+sudo apt-get install curl build-essential jq git -y;
+```
+
 安装go 18+
 
 ```
@@ -34,12 +41,6 @@ source $HOME/.profile
 go version
 ```
 
-安装其他必要的环境
-
-```
-sudo apt-get update -y && sudo apt-get upgrade -y;
-sudo apt-get install curl build-essential jq git -y;
-```
 
 ### 下载源代码并编译
 
